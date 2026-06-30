@@ -208,6 +208,30 @@ main { display: block; }
   border-radius: 7px;
 }
 
+/* ---------- STATS STRIP ---------- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1rem;
+  margin-bottom: 2.6rem;
+}
+.stat {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.3rem 1.4rem;
+  box-shadow: var(--shadow);
+}
+.stat__num {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+  margin-bottom: .35rem;
+}
+.stat__label { color: var(--ink-soft); font-size: .95rem; line-height: 1.45; }
+
 /* ---------- CASE STUDY ---------- */
 .case {
   display: grid;
