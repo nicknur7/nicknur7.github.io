@@ -3,237 +3,181 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nick Nuraliyev — AI Builder</title>
-  <meta name="description" content="Nick Nuraliyev builds AI systems that work the way you do. Builder of agentic systems; founder building an AI that assembles itself around how you work." />
+  <title>Nick Nuraliyev</title>
+  <meta name="description" content="Nick Nuraliyev builds AI that builds itself around how you work. Ships software by directing agentic systems. SF Bay Area." />
   <meta name="author" content="Nick Nuraliyev" />
-
-  <!-- Open Graph / social -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Nick Nuraliyev — AI Builder" />
-  <meta property="og:description" content="I build AI systems that work the way you do." />
+  <meta property="og:title" content="Nick Nuraliyev" />
+  <meta property="og:description" content="I build AI that builds itself around how you work." />
   <meta property="og:url" content="https://nicknur7.github.io/" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..560&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="nav" id="top">
-    <a href="#top" class="nav__brand">Nick&nbsp;Nuraliyev</a>
+    <a href="#top" class="nav__brand">nick nuraliyev</a>
     <nav class="nav__links">
-      <a href="#work">Work</a>
-      <a href="#system">The&nbsp;System</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="nav__cta">Contact</a>
+      <a href="#work">work</a>
+      <a href="#system">system</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
     </nav>
   </header>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <p class="hero__eyebrow">AI Builder · Founder · SF Bay Area</p>
-      <h1 class="hero__title">I build AI systems that<br /><span class="accent">work the way you do.</span></h1>
-      <p class="hero__lede">
-        I ship working software by directing agentic systems — not hand-writing the code.
-        And I'm building a company around one idea: an AI that builds itself around how you actually work.
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap">
+      <p class="hero__eyebrow label">AI builder · SF Bay Area</p>
+      <h1>I build AI that builds <span class="mark">itself</span> around how you work.</h1>
+      <p class="hero__sub">
+        No CS degree. I ship real software by directing agentic systems instead of typing the code,
+        and I'm turning the thing I built for myself into a company.
       </p>
-      <div class="hero__actions">
-        <a href="#work" class="btn btn--primary">See what I've built</a>
-        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      <div class="hero__links">
+        <a href="#work">see the work</a>
+        <a href="mailto:nicknur7@gmail.com">get in touch</a>
       </div>
-    </section>
+    </div>
+  </header>
 
+  <main>
     <!-- WORK -->
-    <section class="section" id="work">
-      <div class="section__head">
-        <h2>Selected work</h2>
-        <p class="section__sub">Things I've designed and shipped.</p>
-      </div>
-
-      <div class="cards">
-        <article class="card card--feature">
-          <div class="card__top">
-            <span class="badge badge--live"><span class="dot"></span>Live</span>
-            <span class="card__kind">Web app</span>
-          </div>
-          <h3>AI Engineer World's Fair — Companion</h3>
-          <p>
-            A companion app for the AI Engineer World's Fair 2026: semantic search across 550+ sessions,
-            a personalized agenda, and live expo navigation. Designed, security-reviewed, and shipped
-            <strong>solo in about a day</strong> — by orchestrating an agentic build system end to end.
-          </p>
-          <ul class="tags">
-            <li>React</li><li>Client-side ML</li><li>Semantic search</li><li>Shipped solo</li>
-          </ul>
-          <a class="card__link" href="https://nicknur7.github.io/aiewf-companion/" target="_blank" rel="noopener">
-            Visit the live app <span aria-hidden="true">→</span>
+    <section id="work">
+      <div class="wrap">
+        <div class="shead"><span class="shead__no">01</span><h2>Work</h2></div>
+        <div class="work">
+          <a class="work__item" href="https://nicknur7.github.io/aiewf-companion/" target="_blank" rel="noopener">
+            <div class="work__top">
+              <span class="work__title">AI Engineer World's Fair, Companion</span>
+              <span class="work__tag work__live">·</span>
+              <span class="work__meta">react · on-device ML</span>
+            </div>
+            <p class="work__desc">
+              Semantic search over 550+ talks, a personal agenda, expo navigation. I designed it, ran a
+              security pass, and shipped it in about a day by directing the build instead of writing it.
+              <span class="go">open it &#8599;</span>
+            </p>
           </a>
-        </article>
-
-        <article class="card">
-          <div class="card__top">
-            <span class="badge">Daily driver</span>
-            <span class="card__kind">Multi-agent system</span>
-          </div>
-          <h3>A personal AI operating system</h3>
-          <p>
-            A multi-agent system I built and run every day — persistent memory, a self-assembling
-            capability layer, and a governance layer that keeps an autonomous system safe and honest.
-            It's the live prototype of the thesis I'm building a company on.
-          </p>
-          <ul class="tags">
-            <li>Multi-agent</li><li>Persistent memory</li><li>Governance</li>
-          </ul>
-          <a class="card__link" href="#system">Read the case study <span aria-hidden="true">↓</span></a>
-        </article>
+          <a class="work__item" href="#system">
+            <div class="work__top">
+              <span class="work__title">A personal AI operating system</span>
+              <span class="work__tag">daily driver</span>
+              <span class="work__meta">multi-agent</span>
+            </div>
+            <p class="work__desc">
+              The setup I run every day. It's the reason the app above took a day instead of a month.
+              <span class="go">read on &#8595;</span>
+            </p>
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- SYSTEM / CASE STUDY -->
-    <section class="section section--alt" id="system">
-      <div class="section__head">
-        <h2>The system I build with</h2>
-        <p class="section__sub">An AI that builds itself around how you work.</p>
-      </div>
-
-      <div class="stats">
-        <div class="stat">
-          <span class="stat__num">~1 day</span>
-          <span class="stat__label">to design, security-review &amp; ship a live app — solo, by orchestration</span>
-        </div>
-        <div class="stat">
-          <span class="stat__num">Daily, for months</span>
-          <span class="stat__label">run as my primary system across the separate domains of my work and life</span>
-        </div>
-        <div class="stat">
-          <span class="stat__num">Zero setup</span>
-          <span class="stat__label">it assembles its own tools, skills &amp; memory from how I work</span>
-        </div>
-      </div>
-
-      <div class="case">
-        <div class="case__block">
-          <h4>The problem</h4>
-          <p>
-            Most AI makes <em>you</em> do the setup — pick the tools, write the prompts, re-explain your
-            context every single session. The models keep getting smarter, but the experience resets to
-            zero every morning. The bottleneck stopped being intelligence. It's <strong>continuity</strong>.
-          </p>
-        </div>
-
-        <div class="case__block">
-          <h4>What I built</h4>
-          <p>
-            A multi-agent system that learns my workflow from how I actually work — then assembles the
-            skills, automations, and tools the work needs and carries seamless memory across every session.
-            It always has the right context, whether I touched something yesterday or last month. I just
-            work; it builds itself around me. I've run it as my daily driver for months across the separate
-            domains of my work and life — <strong>one architecture, personalized several different ways</strong>.
-          </p>
-        </div>
-
-        <div class="case__block">
-          <h4>The hard parts</h4>
-          <ul class="case__list">
-            <li>
-              <strong>Memory that doesn't drift.</strong> Continuity is the whole game, and the easiest thing
-              to get wrong. The hard problem isn't <em>storing</em> memory — it's coming back tomorrow with the
-              state actually <em>right</em>.
-            </li>
-            <li>
-              <strong>A self-assembling layer.</strong> The system reads its own usage and wires up new skills,
-              automations, and tools on its own. The configuration writes itself instead of waiting on me.
-            </li>
-            <li>
-              <strong>Governance that's first-class, not bolted on.</strong> Every outward action — an email,
-              a deploy, a calendar write — is reviewed by a separate model before it fires, and every factual
-              claim is checked against its source before it's stated. An autonomous system you can't trust is a
-              liability; trust is engineered in.
-            </li>
-            <li>
-              <strong>A knowledge layer that mines patterns.</strong> Everything I've done becomes a queryable
-              base the system reasons over — so it's grounded in my real history, and gets sharper the more it's used.
-            </li>
-          </ul>
-        </div>
-
-        <div class="case__block">
-          <h4>Proof it works</h4>
-          <p>
-            The clearest test of the build engine: I used it to design, security-review, and ship a
-            <a href="https://nicknur7.github.io/aiewf-companion/" target="_blank" rel="noopener">live app for the
-            AI Engineer World's Fair</a> — semantic search over 550+ sessions, running entirely in the browser —
-            in about a day, by <em>directing</em> the system rather than writing the code. No CS degree; the
-            skill that mattered was judgment and orchestration.
-          </p>
-        </div>
-
-        <div class="case__block">
-          <h4>Why it matters</h4>
-          <p>
-            It gets more useful every day, with zero setup — value that <strong>compounds instead of decaying</strong>.
-            Pointed at a company, that's the whole thesis: every employee's AI quietly builds itself around how
-            <em>they</em> work, from day one.
-          </p>
+    <!-- SYSTEM -->
+    <section id="system">
+      <div class="wrap">
+        <div class="shead"><span class="shead__no">02</span><h2>The system</h2></div>
+        <div class="case">
+          <div class="case__row">
+            <div class="case__k">the problem</div>
+            <div class="case__v">
+              Every AI tool makes you do the setup. You pick the tools, write the prompts, and re-explain
+              yourself every session. The models got smart. The memory stayed dumb. You start from zero
+              every morning.
+            </div>
+          </div>
+          <div class="case__row">
+            <div class="case__k">what i built</div>
+            <div class="case__v">
+              A system that watches how I actually work and assembles itself from it. It wires up the skills,
+              tools, and automations a task needs, and it remembers across sessions, so it always knows where
+              I left off. I've run it as my daily driver for months across four separate sides of my life:
+              <b>one core, personalized four ways</b>.
+            </div>
+          </div>
+          <div class="case__row">
+            <div class="case__k">the hard parts</div>
+            <div class="case__v">
+              <ul>
+                <li><b>Memory that doesn't drift.</b> Storing memory is easy. Coming back tomorrow with the
+                  state actually <em>right</em> is the part everything else fails at.</li>
+                <li><b>It assembles itself.</b> It reads its own usage and builds what it needs. I stopped
+                  configuring it a while ago.</li>
+                <li><b>Governance I can trust.</b> It sends email, pushes code, writes to my calendar. So a
+                  second model reviews every outbound action before it fires, and every claim gets checked
+                  against the source before it's stated.</li>
+                <li><b>A memory it can reason over.</b> Everything I've done becomes searchable context, so it
+                  gets sharper the more I use it.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="case__row">
+            <div class="case__k">the proof</div>
+            <div class="case__v">
+              I used it to design, security-review, and ship that
+              <a href="https://nicknur7.github.io/aiewf-companion/" target="_blank" rel="noopener">conference app</a>
+              in a day, by directing it. I'm a business major. The skill that mattered was knowing what to
+              build and how to run the system, not writing the code.
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- THESIS -->
-    <section class="section thesis" id="thesis">
-      <div class="thesis__inner">
-        <p class="thesis__kicker">Where this goes</p>
-        <p class="thesis__statement">
-          Every employee opens their laptop on day one, starts working, and their AI
-          builds their workflow around them. <span class="accent">No setup. No learning curve.
-          More useful every day.</span>
-        </p>
-        <p class="thesis__foot">That's the company I'm building toward.</p>
+    <section id="thesis" class="thesis">
+      <div class="wrap">
+        <div class="shead"><span class="shead__no">03</span><h2>Where it's going</h2></div>
+        <blockquote>
+          Point this at a company and every employee gets an AI that builds itself around how
+          <span>they</span> work, from day one.
+        </blockquote>
+        <cite>No setup. No training. More useful every week. That's the company I'm building.</cite>
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="section" id="about">
-      <div class="section__head">
-        <h2>About</h2>
-      </div>
-      <div class="about">
-        <p>
-          I'm a Business Management student at <strong>Oregon State University</strong> (2026). I came up
-          in and around the construction industry — summers on job sites, learning how real projects get
-          coordinated, budgeted, and delivered.
-        </p>
-        <p>
-          I don't have a formal CS background. What I've come to believe is that the skill that matters
-          now is <strong>judgment and orchestration</strong>, not syntax — knowing what to build, how to
-          direct a system to build it, and how to keep it honest. That's how I shipped a live app in a day,
-          and it's how I run the system above every day.
-        </p>
-        <p>
-          Fluent in Russian. Raised in the SF Bay Area. Open to building — as a founder, and with teams
-          pushing AI into the real world.
-        </p>
+    <section id="about">
+      <div class="wrap">
+        <div class="shead"><span class="shead__no">04</span><h2>Background</h2></div>
+        <div class="prose">
+          <p>
+            I grew up around construction. My dad runs a contracting business in San Francisco, and I spent
+            summers on job sites learning how things actually get built: scoped, budgeted, finished.
+          </p>
+          <p>
+            I build software the same way now. Figure out what's needed, direct the work, keep it honest.
+            Turns out that's most of the job once the model can write the code.
+          </p>
+          <p>
+            Business major at Oregon State, finishing 2026. Russian at home. Bay Area.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-    <section class="section section--alt" id="contact">
-      <div class="contact">
-        <h2>Let's talk</h2>
-        <p>Building something, hiring, or just want to compare notes on agentic systems? Reach out.</p>
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <div class="shead"><span class="shead__no">05</span><h2>Get in touch</h2></div>
+        <div class="prose">
+          <p>Building something, hiring, or want to trade notes on agents and memory. I read everything.</p>
+        </div>
         <div class="contact__links">
-          <a class="btn btn--primary" href="mailto:nicknur7@gmail.com">Email me</a>
-          <a class="btn btn--ghost" href="https://www.linkedin.com/in/nicholas-nuraliyev/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn btn--ghost" href="https://github.com/nicknur7" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:nicknur7@gmail.com">email</a>
+          <a href="https://www.linkedin.com/in/nicholas-nuraliyev/" target="_blank" rel="noopener">linkedin</a>
+          <a href="https://github.com/nicknur7" target="_blank" rel="noopener">github</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <span>© <span id="year">2026</span> Nick Nuraliyev</span>
-    <a href="#top">Back to top ↑</a>
+    <span>Nick Nuraliyev, <span id="year">2026</span></span>
+    <a href="#top">top &#8593;</a>
   </footer>
 
   <script src="script.js"></script>
