@@ -69,6 +69,14 @@ em { font-style: italic; color: var(--ink-soft); }
 }
 .nav__cta:hover { background: var(--accent); color: #fff !important; }
 
+/* On phones the full link row overflows and clips "Contact" — keep brand + Contact only */
+@media (max-width: 620px) {
+  .nav { padding-inline: 1.2rem; }
+  .nav__links { gap: 0; }
+  .nav__links a:not(.nav__cta) { display: none; }
+  .nav__cta { padding: .38rem .8rem; }
+}
+
 /* ---------- LAYOUT ---------- */
 main { display: block; }
 .hero, .section { padding-inline: clamp(1.2rem, 5vw, 3rem); }
