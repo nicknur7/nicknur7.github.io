@@ -8,7 +8,7 @@ Personal site for Nick Nuraliyev — AI builder.
   `nicknur7.github.io`. A custom domain can be added later via a `CNAME` file + DNS.
 
 ## Sections
-Hero → Selected work (AIEWF app + the system) → Case study → Thesis → About → Contact.
+Hero → Selected work (the system) → Case study → Thesis → About → Contact.
 
 ## Open items before/after launch
 - [ ] Decide whether to name the system ("Core") publicly — currently described generically.
