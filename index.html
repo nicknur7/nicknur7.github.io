@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nick Nuraliyev - I deploy AI systems into real operations</title>
-  <meta name="description" content="I put AI systems inside real business operations and own whether they hold up. A licensed Bay Area contractor has run its back office on a system I built since July 2026. SF Bay Area or remote." />
+  <title>Nick Nuraliyev</title>
+  <meta name="description" content="First line of code in April 2026. By July a general contractor was running its entire back office on a system I built and deployed. SF Bay Area or remote." />
   <meta name="author" content="Nick Nuraliyev" />
 
   <!-- Open Graph / social -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Nick Nuraliyev - I deploy AI systems into real operations" />
-  <meta property="og:description" content="A licensed Bay Area contractor has run its back office on a system I built since July 2026. I architect the system, direct AI agents to build it, and own whether it holds up." />
+  <meta property="og:title" content="Nick Nuraliyev" />
+  <meta property="og:description" content="First line of code in April 2026. By July a general contractor was running its entire back office on a system I built and deployed." />
   <meta property="og:url" content="https://nicknur7.github.io/" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +23,7 @@
     <a href="#top" class="nav__brand">Nick&nbsp;Nuraliyev</a>
     <nav class="nav__links">
       <a href="#work">Work</a>
-      <a href="#system">The&nbsp;System</a>
+      <a href="#system">Core</a>
       <a href="#about">About</a>
       <a href="#contact" class="nav__cta">Contact</a>
     </nav>
@@ -33,12 +33,13 @@
     <!-- HERO -->
     <section class="hero">
       <p class="hero__eyebrow">Forward Deployed · Solutions · Implementation · SF Bay Area</p>
-      <h1 class="hero__title">I build AI systems that<br /><span class="accent">work the way you do.</span></h1>
+      <h1 class="hero__title">First line of code in April 2026.<br /><span class="accent">By July a general contractor ran its entire back office on a system I built.</span></h1>
       <p class="hero__lede">
-        I build and ship production software by directing agentic systems. In July I built and deployed a production back office for my family&rsquo;s construction business. I run a five-agent AI system
-        as my daily driver. Now I do this for other local businesses through
-        <a href="https://trovano.ai" target="_blank" rel="noopener">Trovano</a>: find what is eating an
-        owner's nights and weekends, build the system that handles it, and keep it running.
+        It still is, every working day. The client had no spec. I worked alongside the people in the
+        business, found what actually slowed them down, and built against that. Alongside it I built
+        Core, the five-agent system I work in, and I am starting
+        <a href="https://trovano.ai" target="_blank" rel="noopener">Trovano</a> to do this for other
+        local businesses.
       </p>
       <div class="hero__actions">
         <a href="#work" class="btn btn--primary">See what I've built</a>
@@ -50,7 +51,7 @@
     <section class="section" id="work">
       <div class="section__head">
         <h2>Selected work</h2>
-        <p class="section__sub">Things I've designed and shipped.</p>
+        <p class="section__sub">Designed, built, deployed, and still running.</p>
       </div>
 
       <div class="cards">
@@ -59,37 +60,41 @@
             <span class="badge badge--live"><span class="dot"></span>In production</span>
             <span class="card__kind">Business back office</span>
           </div>
-          <h3>A production back office for my family&rsquo;s construction business</h3>
+          <h3>A licensed general contractor&rsquo;s entire back office</h3>
           <p>
-            Built and deployed in July 2026: projects, invoicing, payment tracking and compliance
-            routing, seeded from the company&rsquo;s own documents and holding their real jobs, invoices
-            and insurance records. Almost none of the difficulty was the AI. It was learning how the
-            business actually ran, which meant sitting with the people doing the work. The test suite is at
-            1,922 tests across 201 files, because I was not pointing it at real financial records until it was. The code is written by agents; the tests, the review and the ship decision are mine.
+            Built and deployed in July 2026, three months after my first line of code. Leads, estimates,
+            change orders, invoices, payments, insurance compliance, closeout. Inside it is an inbound mail
+            engine that reads the company&rsquo;s email and files each message against the right job, a
+            document pipeline that produces the paperwork they bill on and takes a signature through a
+            public link, and a compliance tracker that reads an insurance certificate, pulls carrier and
+            expiry for every coverage line, and warns 30 days before a lapse. 42 database tables. 2,290
+            passing tests. Three people use it every working day. Then I sat with them while they used it
+            and kept shipping until they were running it themselves.
           </p>
           <ul class="tags">
-            <li>Deployed</li><li>Invoicing</li><li>Compliance</li><li>Next.js on Vercel</li>
+            <li>Deployed</li><li>Invoicing</li><li>Compliance</li><li>TypeScript</li><li>Next.js on Vercel</li>
           </ul>
         </article>
 
         <article class="card card--feature">
           <div class="card__top">
             <span class="badge badge--live"><span class="dot"></span>Daily driver</span>
-            <span class="card__kind">Multi-agent system</span>
+            <span class="card__kind">Personal AI operating system</span>
           </div>
-          <h3>A personal AI operating system</h3>
+          <h3>Core</h3>
           <p>
-            Five role-specialized agents I built and run every day as my primary system, all sharing one
-            governed memory that stays right across sessions. It assembles its own tools and skills from
-            how I work, improves itself over time, and reviews every action and checks every claim against
-            its source before it fires. It is the live prototype of the thesis I am building a company on.
-            One architecture, personalized several different ways across the separate domains of my work
-            and life.
+            A personal AI operating system I built from nothing starting in April 2026, and I run my life
+            on it. Five agents, each a specialist in a domain of my life, each with its own memory, rules
+            and personality, sharing one brain, a knowledge graph of 106,730 entities and 171,053
+            relationships that remembers every session back to the first one. They talk to each other over
+            a message bus. They are built to disagree with me. Every outward action any of them takes
+            passes an adversarial review agent first. It watches how I work, turns my corrections into
+            installed behaviors, and measures whether they helped. Public repo coming soon.
           </p>
           <ul class="tags">
-            <li>Multi-agent</li><li>Persistent memory</li><li>Self-assembling</li><li>Governance</li>
+            <li>Multi-agent</li><li>One brain</li><li>Message bus</li><li>Governance</li>
           </ul>
-          <a class="card__link" href="#system">Read the case study <span aria-hidden="true">↓</span></a>
+          <a class="card__link" href="#system">How it is built <span aria-hidden="true">↓</span></a>
         </article>
       </div>
     </section>
@@ -97,91 +102,73 @@
     <!-- SYSTEM / CASE STUDY -->
     <section class="section section--alt" id="system">
       <div class="section__head">
-        <h2>The system I build with</h2>
-        <p class="section__sub">An AI that builds itself around how you work.</p>
+        <h2>How Core is built</h2>
+        <p class="section__sub">One engine. Five instances. One brain.</p>
       </div>
 
       <div class="stats">
         <div class="stat">
-          <span class="stat__num">Daily, for months</span>
-          <span class="stat__label">run as my primary system across the separate domains of my work and life</span>
+          <span class="stat__num">5 instances</span>
+          <span class="stat__label">of one engine. One writer to the shared baseline, four pull-only seats</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">106,730</span>
+          <span class="stat__label">entities and 171,053 relationships in one shared brain, org partitioned with row-level security</span>
         </div>
         <div class="stat">
           <span class="stat__num">Every action</span>
-          <span class="stat__label">reviewed by a separate model, and every claim checked against its source, before it fires</span>
-        </div>
-        <div class="stat">
-          <span class="stat__num">Zero setup</span>
-          <span class="stat__label">it assembles its own tools, skills &amp; memory from how I work</span>
+          <span class="stat__label">intercepted first, and released only on a one-time token bound to the exact command</span>
         </div>
       </div>
 
       <div class="case">
         <div class="case__block">
-          <h4>The problem</h4>
+          <h4>One engine, instanced</h4>
           <p>
-            Most AI makes <em>you</em> do the setup. Pick the tools, write the prompts, re-explain your
-            context every single session. The models keep getting smarter, but the experience resets to
-            zero every morning. The bottleneck stopped being intelligence. It's <strong>continuity</strong>.
+            The engine lives on GitHub as a baseline. One instance is its only writer. The other four pull
+            it on every open against a manifest that says which paths are shared, which belong to the seat
+            and may never be overwritten, and which files to retire. The single writer rule is enforced, not
+            agreed. A fix written once reaches four other running agents on their next open.
           </p>
         </div>
 
         <div class="case__block">
-          <h4>What I built</h4>
+          <h4>Gates, not advice</h4>
           <p>
-            Five role-specialized agents that learn my workflow from how I actually work, then assemble the
-            skills, automations, and tools the work needs and carry seamless memory across every session.
-            The memory is built so it comes back the next day with the state actually right, not just stored.
-            I just work, and the system builds itself around me. I have run it as my daily driver for months
-            across the separate domains of my work and life. <strong>One architecture, personalized several
-            different ways.</strong>
+            Every outward action, an email, a push, a calendar write, a network call, is intercepted first
+            and proceeds only on a one-time token minted from a review agent&rsquo;s APPROVE, bound to the
+            exact command. A change to the trust root returns ASK and never APPROVE, and no code path
+            converts ASK into a token, so the only way it lands is me typing the command in my own terminal.
           </p>
         </div>
 
         <div class="case__block">
-          <h4>The hard parts</h4>
-          <ul class="case__list">
-            <li>
-              <strong>Memory that doesn't drift.</strong> Continuity is the whole game, and the easiest thing
-              to get wrong. The hard problem isn't <em>storing</em> memory. It's coming back tomorrow with the
-              state actually <em>right</em>.
-            </li>
-            <li>
-              <strong>A self-assembling layer.</strong> The system reads its own usage and wires up new skills,
-              automations, and tools on its own. The configuration writes itself instead of waiting on me.
-            </li>
-            <li>
-              <strong>Governance that's first-class, not bolted on.</strong> Every outward action, an email,
-              a deploy, a calendar write, is reviewed by a separate model before it fires, and every factual
-              claim is checked against its source before it's stated. An autonomous system you can't trust is a
-              liability; trust is engineered in.
-            </li>
-            <li>
-              <strong>A knowledge layer that mines patterns.</strong> Everything I've done becomes a queryable
-              base the system reasons over, so it's grounded in my real history, and gets sharper the more it's used.
-            </li>
-          </ul>
+          <h4>One brain, five tenants</h4>
+          <p>
+            One Postgres database, org partitioned with row-level security, read-all and write-own by
+            design. Session transcripts feed extraction workers in batches, and no checkpoint merges until
+            it exists, parses and matches the shape the merge expects, because a worker&rsquo;s done is a
+            claim, not evidence. Retrieval fuses vector search, full text, graph traversal and relationship
+            vectors. A nightly job probes for debt and rebuilds only when it finds some.
+          </p>
+        </div>
+
+        <div class="case__block">
+          <h4>It watches itself</h4>
+          <p>
+            Twenty-nine hooks across nine lifecycle events, every fire logged. Corrections that recur
+            become installed behaviors that ship live behind a test gate and roll back to quarantine when
+            their measured outcomes say so. Nine gates that fired after the reply had already gone out were
+            deleted, because a block that cannot block is a lie about enforcement.
+          </p>
         </div>
 
         <div class="case__block">
           <h4>Proof it works</h4>
           <p>
-            The clearest test isn't a demo. It's that I pointed this at a business that is not mine to
-            experiment on and deployed what came out, and that I have run it as my actual operating
-            system every day for months across the separate domains of my work and life. It assembles its own
-            capabilities, keeps its memory straight from one session to the next, and gates its own
-            actions. The thesis isn't a slide. It's the thing I work inside every day, and I direct it
-            by <em>judgment and orchestration</em>.
-          </p>
-        </div>
-
-        <div class="case__block">
-          <h4>Why it matters</h4>
-          <p>
-            It gets more useful every day with zero setup, so its value <strong>compounds instead of decaying</strong>.
-            Pointed at a company, that is the whole thesis. Every employee's AI builds itself around how
-            <em>they</em> work from day one, the company keeps the knowledge that usually walks out the door
-            when someone leaves, and the output stays grounded in real sources you can actually trust.
+            The first thing it built for someone else is the contractor&rsquo;s system above. I did not
+            solve reliability with more gates. I built agents with independent access to the facts and let
+            them check each other&rsquo;s work.
           </p>
         </div>
       </div>
@@ -190,13 +177,12 @@
     <!-- THESIS -->
     <section class="section thesis" id="thesis">
       <div class="thesis__inner">
-        <p class="thesis__kicker">Where this goes</p>
+        <p class="thesis__kicker">How I work</p>
         <p class="thesis__statement">
-          An owner stops doing the office work at 10pm, because the system that handles it
-          was built around how they already work. <span class="accent">Nothing to learn.
-          It just gets handled.</span>
+          I make the architecture calls, decide what ships, and measure done by
+          <span class="accent">whether the customer actually uses it.</span>
         </p>
-        <p class="thesis__foot">That's the work I want to be doing.</p>
+        <p class="thesis__foot">Looking for deployment strategy, solutions and forward deployed roles at AI companies. Bay Area or remote.</p>
       </div>
     </section>
 
@@ -208,19 +194,18 @@
       <div class="about">
         <p>
           I hold a B.S. in Business Management from <strong>Oregon State University</strong> (2026). I
-          came up in and around the construction industry, spending summers on job sites learning how real
-          projects get coordinated, budgeted, and delivered. In July 2026 I built and deployed the
-          production back office for my family&rsquo;s construction business, which is the clearest test I
-          have of whether any of this works off my own machine.
+          opened a code editor for the first time in April 2026. Three months later a licensed Bay Area
+          general contractor was running its entire back office on a system I designed, built and
+          deployed, and three people have used it every working day since.
         </p>
         <p>
-          What I've come to believe is that the skill that matters most now is
-          <strong>judgment and orchestration</strong>. Knowing what to build, how to direct a system to
-          build it, and how to keep it honest. That is how I built and run the system above as my daily
-          driver for months.
+          Alongside it I built <strong>Core</strong>, the system I work in. Five specialized agents over
+          one shared brain, coordinating live, checking each other&rsquo;s work.
         </p>
         <p>
-          Fluent in Russian. Raised in the SF Bay Area, which is where Trovano works.
+          I am also the founder of <a href="https://trovano.ai" target="_blank" rel="noopener">Trovano</a>,
+          which builds custom operating systems for local businesses and keeps building them after
+          delivery. First deployment is the system above. Raised in the SF Bay Area, still here.
         </p>
       </div>
     </section>
@@ -229,13 +214,13 @@
     <section class="section section--alt" id="contact">
       <div class="contact">
         <h2>Let's talk</h2>
-        <p>Losing your nights to the office work? That's what Trovano does. Building something
-          yourself and want to compare notes on agentic systems? Also good.</p>
+        <p>Hiring for deployment, solutions or forward deployed work? Building agentic systems and want
+          to compare notes? Either way.</p>
         <div class="contact__links">
           <a class="btn btn--primary" href="mailto:nicknur7@gmail.com">Email me</a>
           <a class="btn btn--ghost" href="https://www.linkedin.com/in/nicholas-nuraliyev/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn btn--ghost" href="https://trovano.ai" target="_blank" rel="noopener">Trovano</a>
           <a class="btn btn--ghost" href="https://github.com/nicknur7" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="https://trovano.ai" target="_blank" rel="noopener">Trovano</a>
         </div>
       </div>
     </section>
